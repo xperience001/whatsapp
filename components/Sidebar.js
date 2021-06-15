@@ -35,11 +35,11 @@ function Sidebar() {
     }
   };
 
-  const chatAlreadyExists = (recipientEmail) => {
-    return !!chatsSnapshot?.docs.find(
-      (chat) => chat.data().find((user) => user === recipientEmail)?.length > 0
+  const chatAlreadyExists = (recipientEmail) =>
+    !!chatsSnapshot?.docs.find(
+      (chat) =>
+        chat.data().users.find((user) => user === recipientEmail)?.length > 0
     );
-  };
 
   return (
     <Container>
