@@ -11,4 +11,5 @@ function ChatScreen() {
 
 export default ChatScreen;
 
+// styled component
 const Container = styled.div``;
