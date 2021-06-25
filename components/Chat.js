@@ -12,6 +12,7 @@ function Chat({ id, users }) {
     db.collection("users").where("email", "==", getRecipientEmail(users, user))
   );
 
+//   enter chat
   const enterChat = () => {
     router.push(`/chat/${id}`);
   };
