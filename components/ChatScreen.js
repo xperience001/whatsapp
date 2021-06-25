@@ -1,5 +1,6 @@
 import styled from "styled-components";
 
+// chat function
 function ChatScreen() {
   return (
     <Container>
