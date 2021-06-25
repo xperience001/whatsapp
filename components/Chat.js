@@ -34,6 +34,7 @@ function Chat({ id, users }) {
 
 export default Chat;
 
+// styled component
 const Container = styled.div`
   display: flex;
   align-items: center;
